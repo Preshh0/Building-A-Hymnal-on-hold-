@@ -3,10 +3,10 @@ import React from "react";
 
 function Hymn(props){
     return(
-        <div>
-            <h3> Title: {props.title} </h3>
+        <div className="contentWrapper">
+            <h3 className="header"> Title: {props.title} </h3>
             
-            <h3>Lyrics: {props.hymnal} </h3> 
+            <p className="body">Lyrics: {props.hymnal} </p> 
            
             
         </div>
